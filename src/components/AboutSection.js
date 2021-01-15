@@ -1,5 +1,5 @@
 import React from 'react';
-import home1 from '../img/home1.png';
+import home1 from '../img/renelle.jpg';
 import {About, Description, Image, Hide} from '../styles';
 //Framer Motion
 import {motion} from 'framer-motion';
@@ -13,22 +13,22 @@ const AboutSection = () => {
                 <motion.div className="title">
                     <Hide>
                         <motion.h2 variants={titleAnim}>
-                            We work to make
+                            Hi, I'm Renelle Tigue
                         </motion.h2>
                     </Hide>
                     <Hide>
                         <motion.h2 variants={titleAnim}>
-                            your <span>dreams</span> come
+                            a <span>Shopify Developer</span>
                         </motion.h2>
                     </Hide>
                     <Hide>
                         <motion.h2 variants={titleAnim}>
-                            true.
+                            and a CRO Expert.
                         </motion.h2>
                     </Hide>
                 </motion.div>
-                <motion.p variants={fade}>Contact us for any photography or videography ideas that you have. We have professionals with amazing skills.</motion.p>
-                <motion.button variants={fade}>Contact Us</motion.button>
+                <motion.p variants={fade}>I help Shopify store owners <span>increase their sales</span> by developing a high-converting Shopify store.</motion.p>
+                <motion.button variants={fade}>Contact Me</motion.button>
             </Description>
             <Image>
                 <motion.img variants={photoAnim} src={home1} alt="guy with a camera" />

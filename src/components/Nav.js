@@ -8,10 +8,10 @@ const Nav = () => {
     const {pathname} = useLocation();
     return (
         <StyledNav>
-            <h1><Link id="logo" to="/">Capture</Link></h1>
+            <h1><Link id="logo" to="/">Renelle Tigue</Link></h1>
             <ul>
                 <li>
-                    <Link to="/">1. About Us</Link>
+                    <Link to="/">1. About Me</Link>
                     <Line
                         transition={{duration: 0.75}}
                         initial={{width: "0%"}}
@@ -19,7 +19,7 @@ const Nav = () => {
                     />
                 </li>
                 <li>
-                    <Link to="/work">2. Our Work</Link>
+                    <Link to="/work">2. Portfolio</Link>
                     <Line
                         transition={{duration: 0.75}}
                         initial={{width: "0%"}}
@@ -27,7 +27,7 @@ const Nav = () => {
                     />
                 </li>
                 <li>
-                    <Link to="/contact">3. Contact Us</Link>
+                    <Link to="/contact">3. Contact Me</Link>
                     <Line
                         transition={{duration: 0.75}}
                         initial={{width: "0%"}}
@@ -59,7 +59,7 @@ const StyledNav = styled.nav`
         list-style: none;
     }
     #logo {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: "Lobster", cursive;
         font-weight: lighter;
     }
